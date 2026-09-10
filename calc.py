@@ -23,10 +23,10 @@ def calculate():
             return
         result = num1 / num2
     else:
-        print(f"unknown operator: {operator}")
+        print("error")
         return
         
-    print(f"Result: {result}")
+    print(f"result: {result}")
 
 calculate()
 
