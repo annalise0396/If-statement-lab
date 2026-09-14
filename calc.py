@@ -1,5 +1,5 @@
 def calculate():
-    user_input = input("Enter a calculation: ")
+    user_input = input("nter a calculation:")
   
     parts = user_input.split()
     
