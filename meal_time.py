@@ -1,5 +1,5 @@
 def main():
-    user_time = input("enter 12-hour time (ex 8:30 PM): ").strip()
+    user_time = input("enter 12-hour time (ex 8:30 PM):").strip()
     converted_time = convert(user_time) 
     
     if converted_time is None:
